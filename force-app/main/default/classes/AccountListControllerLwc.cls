@@ -1,4 +1,4 @@
-public with sharing class AccountControllerLwc {
+public with sharing class AccountListControllerLwc {
     @AuraEnabled(cacheable=true)
     public static List<Contact> queryRelatedContacts(Id accountId) {
         return [
